@@ -146,6 +146,20 @@
                             </gpgArguments>
                         </configuration>
                     </plugin>
+                    <plugin>
+                        <groupId>org.jreleaser</groupId>
+                        <artifactId>jreleaser-maven-plugin</artifactId>
+                        <version>0.8.0</version>
+                        <configuration>
+                            <jreleaser>
+                                <release>
+                                    <github>
+                                        <owner>infilos</owner>
+                                    </github>
+                                </release>
+                            </jreleaser>
+                        </configuration>
+                    </plugin>
                 </plugins>
             </build>
         </profile>
